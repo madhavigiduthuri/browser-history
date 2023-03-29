@@ -1,0 +1,48 @@
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.time {
+    width: 10%;
+}
+
+.list-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    width: 70%;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+}
+
+.detailed {
+   color: #64748b;
+   font-size: 14px;
+   padding: 5px;
+}
+
+.icon {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.delete-icon {
+    padding: 50px;
+}
